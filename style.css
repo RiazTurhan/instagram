@@ -26,6 +26,7 @@ header {
     position: fixed;
     top: 0; left: 0; right: 0;
     width: 100%;
+    z-index: 2;
     
 }
 header .container{
@@ -125,7 +126,6 @@ ul li i{
     color: rgb(235, 235, 235);
     margin-left: 500px;
     margin-top: 30px;
-    z-index: 2;
     position:absolute;
 }
 
@@ -136,7 +136,7 @@ ul li i{
     position: absolute;
     top: 100px;
     margin-left: 63%;
-    z-index: 2;
+
 }
 .followers .footer{
     margin: 20px 0;
@@ -214,3 +214,51 @@ ul li i{
     margin-top: 6px;
     color: #808080 ;
 }
+
+/*news feed start */
+
+.news-feed{
+    margin-top: 20px;
+}
+.container-news{
+    border: 1px solid #d1d1d1 ;
+    width: 40%;   
+    margin-left: 20% ;
+    background-color: white;
+    border-radius: 5px;
+}
+ .news-feed .news-id .image{
+    display: flex;
+    align-items: center;
+
+ }
+ .news-feed .news-id .image img{
+    width: 40px;
+    border-radius: 50%;
+ }
+ .news-feed .news-id .image p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .news-feed .news-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px auto; 
+ }
+ .news-feed .news-id .dot i{
+    font-size: 17px;
+ }
+ .contant img{
+    width: 100%;
+ }
+ .news-icons{
+     margin: 10px auto;
+     width: 95%;
+ }
+ .news-icons i{
+    font-size: 22px;
+    margin:0 5px ;
+ }
